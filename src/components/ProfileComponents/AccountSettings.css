@@ -1,0 +1,40 @@
+/* AccountSettings.css */
+
+.account-settings-container {
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .change-password-section {
+    margin-top: 20px;
+  }
+  
+  .password-fields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .change-password-button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-password-button:hover {
+    background-color: #0b7dda;
+  }
+  

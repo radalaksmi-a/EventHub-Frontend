@@ -1,0 +1,64 @@
+/* Interests.css */
+
+.interests-container {
+  padding: 20px;
+}
+
+.user-interests {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interest {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.interest span {
+  margin-right: 8px;
+}
+
+.remove-button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #e05247;
+}
+
+.add-interest-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add-interest-container select {
+  width: 270px;
+  padding: 8px;
+  margin-right: 16px;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}

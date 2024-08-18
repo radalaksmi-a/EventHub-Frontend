@@ -1,0 +1,62 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the app takes the full height of the viewport */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add styles for the profile section */
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-left: 10px;
+}

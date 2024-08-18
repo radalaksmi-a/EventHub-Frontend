@@ -1,0 +1,38 @@
+/* Profile.css */
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  align-content: center;
+
+}
+
+.profile-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.profile-section h2 {
+  color: #333;
+}
+
+.user-info {
+  background-color: #f0f0f0;
+  width: 650px;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  color: #333;
+  text-align: center;
+}
+
+.email-text {
+  color: #555;
+  text-align: center;
+}

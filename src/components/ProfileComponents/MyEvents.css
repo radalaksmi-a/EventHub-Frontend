@@ -1,0 +1,40 @@
+/* MyEvents.css */
+
+.my-events-container {
+    padding: 20px;
+    align-content: center;
+  }
+  
+  .event-card {
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-details {
+    flex-grow: 1;
+  }
+  
+  .event-details h3 {
+    margin-bottom: 8px;
+  }
+  
+  .cancel-button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e05247;
+  }
+  

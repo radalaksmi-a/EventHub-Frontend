@@ -1,0 +1,5 @@
+/* Home.css */
+.card:hover {
+  transform: scale(1.02);
+}
+
